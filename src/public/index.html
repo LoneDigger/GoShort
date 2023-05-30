@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Short URL</title>
+  <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/public/css.css">
+
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+  <script type="text/javascript" src="/public/js.js"></script>
+</head>
+
+<body>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="form">
+        <h1> Short URL </h1>
+
+        <fieldset>
+          <legend><span class="number">1</span>Paste the URL to be shortened</legend>
+          <input type="url" id="long_url">
+        </fieldset>
+
+        <fieldset>
+          <legend><span class="number">2</span>Your shortened URL</legend>
+          <input type="url" id="short_url">
+        </fieldset>
+
+        <button id="submit">Get</button>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
